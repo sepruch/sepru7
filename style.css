@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body {
+    background-color: rgb(159, 199, 151); 
+    font-family: Tahoma;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 0;
+    background: url("../imag/bg.jpg") no-repeat;
+    height: 100%;
+    background-size: cover;
+    font-family: cursive;
+    color: #E0FFFF;
+}
+
+.card {
+    width: 25%;
+    margin: 100px auto;
+    /*background-color:white;*/
+    box-shadow:0 7px 7px 7px #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+    display:   block;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: 2s;
+}
+.photo:hover{
+    transform: scale(2) rotate(360deg);
+    transform: 
+}
+
+.card-title{
+    margin: 0 auto;
+    text-align: center;
+}
+.card-text{
+    margin: 0 0 0 17%;
+    font-size: 24px;
+}
+.lol1{
+    margin-left: 10%;
+    width: 15%;
+    position: absolute;
+}
+.lol2{
+    margin-top: 1%;
+    margin-left: 70%;
+    width: 10%;
+    position: absolute;
+}
+.ulka{
+    padding-left: 0;
+    list-style-position:inside;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+.link{
+    text-decoration: none;
+    color: #E0FFFF;
+}
+@media (max-width: 980px){
+    body{
+        font-family:serif;
+    }
+    .photo{
+        width: 100px;
+        height: 100px;
+    }
+    .card{
+        width: 25%;
+        margin: 100px auto;
+        /*background-color:white;*/
+        box-shadow:0 7px 7px 7px #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        padding: 20px;
+        margin-bottom: 150%;
+    }
+}
